@@ -55,5 +55,5 @@ picom -f &
 slstatus &
 #nitrogen --restore &
 ~/.fehbg &
-xsetroot -name "V01D" &
+#xsetroot -name "V01D" &
 exec dwm
