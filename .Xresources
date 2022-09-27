@@ -37,10 +37,10 @@ special
 
 
 !! URxvt Appearance
-URxvt.font: xft:Minecraft:style=Regular:size=11
-URxvt.boldFont: xft:Minecraft:style=Bold:size=11
-URxvt.italicFont: xft:Minecraft:style=Italic:size=11
-URxvt.boldItalicFont: xft:Minecraft:style=Bold Italic:size=11
+URxvt.font: xft:Hack-Bold.ttf:style=Regular:size=11
+URxvt.boldFont: xft:Hack-Bold.ttf:style=Bold:size=11
+URxvt.italicFont: xft:Hack-Bold.ttf:style=Italic:size=11
+URxvt.boldItalicFont: xft:Hack-Bold.ttf:style=Bold Italic:size=11
 URxvt.letterSpace: 0
 URxvt.lineSpace: 0
 URxvt.geometry: 92x24
@@ -79,7 +79,8 @@ URxvt.underlineURLs: true
 URxvt.urlButton: 1
 
 ! Setting transparency and background
-URxvt*depth:      32
+URxvt*depth:      900
 URxvt.background: [85]#282828
-
+urxvt*transparent: true
+urxvt*shading: 40
 ~
